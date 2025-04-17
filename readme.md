@@ -4,10 +4,10 @@ This is a simple tool to convert a docker-compose file to a Zeabur template, pow
 
 ## Usage
 
-Put `docker-compose.yaml` in the root directory of the project, and run the following command:
+Put `docker-compose.(yaml|yml)` in the root directory of the project, and run the following command:
 
 ```bash
-export CLAUDE_API_KEY=sk-xxxx
+echo "DEEPSEEK_API_KEY={key}" > .env
 go run main.go
 ```
 
